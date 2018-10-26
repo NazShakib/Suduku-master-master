@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="testSize">18sp</dimen>
+    <dimen name="rightMargin">10dp</dimen>
+    <dimen name="rightMarginX">15dp</dimen>
+</resources>

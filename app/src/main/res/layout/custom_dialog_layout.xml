@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/textDialog"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/restartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="Ok"
+            android:textColor="@color/colorBg" />
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:padding="10dp"
+            android:text="exit"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
